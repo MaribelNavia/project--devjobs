@@ -5,10 +5,14 @@ const express = require('express')
 const app = express()
 
 
-app.get('/',function(req,res){
-	fs.readFile(`${__dirname}/src/views/home.html`,'utf-8', function(error, content){
-		res.send(content)
-	})
+const pageRouter = require('./src/routers/pageRouter')
+const apiRouter = require('./src/routers/apiRouter')
+
+app.use('/', pageRouter)
+app.use('/api', apiRouter)
+
+app.use(function(req,res){
+	res.send('404 - Page Not Found!')
 })
 
 

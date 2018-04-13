@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "1.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaribelNavia/project--devjobs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MaribelNavia/project--devjobs/issues"
+  },
+  "homepage": "https://github.com/MaribelNavia/project--devjobs#readme"
 }
