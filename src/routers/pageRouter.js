@@ -5,11 +5,11 @@ const pageRouter = Router()
 
 
 pageRouter.get('/', (req, res) => {
-	res.send('HOME Page')
+	res.render('home.ejs')
 })
 
 pageRouter.get('/about', (req, res) => {
-	res.send('ABOUT Page')
+	res.render('about.ejs')
 })
 
 
