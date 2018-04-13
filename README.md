@@ -8,12 +8,5 @@
 
 (4) Run the server:
 
-- In Development (runs with nodemon)
-  ```sh
-  npm run dev
-  ```
+(5) Enjoy!
 
-- In Production 
-  ```sh
-  npm start
-  ```
